@@ -9,7 +9,7 @@ export default function CommentReview({ name, rating, review }: CommentReviewPro
         <Text size="lg" fw="bold">
           {name}
         </Text>
-        <Rating value={rating} />
+        <Rating value={rating} readOnly />
       </Group>
       <Text c="gray" ta="center" size="sm" mb="sm">
         {review}
